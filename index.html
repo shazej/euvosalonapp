@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+    <meta name="theme-color" content="#E91E63" />
+    <title>LuxeSalon</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: {
+                DEFAULT: '#E91E63', // Pink Rose
+                500: '#E91E63',
+                600: '#D81B60',
+                50: '#FCE4EC',
+              },
+              secondary: {
+                DEFAULT: '#673AB7', // Deep Lavender
+                500: '#673AB7',
+                600: '#5E35B1',
+                50: '#EDE7F6',
+              },
+              accent: {
+                DEFAULT: '#FFC107', // Warm Gold
+                500: '#FFC107',
+                600: '#FFB300',
+              },
+              background: '#F8F9FA', // Off-white
+              surface: '#FFFFFF', // Pure white
+              text: {
+                main: '#212121',
+                muted: '#757575',
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      /* Custom scrollbar for webkit */
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #F8F9FA;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #BDBDBD;
+        border-radius: 3px;
+      }
+      body {
+        background-color: #F8F9FA;
+        color: #212121;
+        font-family: 'Inter', sans-serif;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.30.0",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.6"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

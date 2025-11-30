@@ -1,0 +1,7 @@
+{
+  "name": "LuxeSalon - Cross-Platform Booking",
+  "description": "A premium salon booking application featuring AI style consultation, service selection, and referral rewards. Designed as a responsive core for Web, iOS, Android, and Desktop.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
